@@ -1,0 +1,19 @@
+{
+  "name": "orm",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha",
+    "start": "node index.js"
+  },
+  "author": "Gary Kim <gary@garykim.dev>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "mocha": "^10.0.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.24.0"
+  },
+  "type": "module"
+}
